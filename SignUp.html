@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <h2>Smart Login System</h2>
+        <form id="SignupForm">
+            <input type="text" class="form-control" id="nameSignUp" placeholder="Enter your Name">
+            <input type="email" class="form-control" id="emailSignUp" placeholder="Enter your email">
+            <input type="password" class="form-control" id="passwordSignUp" placeholder="Enter your password">
+            <span id="msgUp" class="d-none alert alert-danger p-2 my-4">your email or password is incorrect</span>
+            <button type="submit" id="SignUpBtn">Sign Up</button>
+        </form>
+        <p>Don't have an account? <a href="index.html">Sign in</a></p>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
